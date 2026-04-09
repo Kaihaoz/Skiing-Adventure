@@ -2,9 +2,20 @@
 # 项目名称：滑雪冒险 - 人机交互原型实验
 
 ## 🟢 Project Overview / 项目概述
-This project is an immersive skiing simulation prototype built with Unity and Arduino. By replacing traditional keyboard inputs with a physical potentiometer, we explored the "Game Feel" of linear resistance in sports simulations. The project also integrates AIGC (Tripo AI) to streamline the 3D asset production pipeline.
+"Skiing Adventure" is an experimental interaction prototype built with **Unity** and **Arduino**. The project explores the potential of physical controllers in sports simulations, using a potentiometer to provide linear resistance for steering. The environment is a hybrid of manual scene construction and **AI-generated (Tripo AI)** assets.
 
-本项目是一个基于 Unity 和 Arduino 开发的沉浸式滑雪模拟原型。通过利用物理电位计替代传统的键盘输入，我们探索了运动模拟中“线性阻尼感”对游戏手感的影响。同时，项目引入了 AIGC (Tripo AI) 技术，极大地优化了 3D 环境资产的生产流程。
+本项目是一个基于 **Unity** 和 **Arduino** 开发的交互实验原型。项目探索了物理控制器在运动模拟中的潜力，利用电位计为转向提供线性阻尼感。游戏环境则结合了人工场景搭建与 **AI 生成 (Tripo AI)** 资产的混合。
+
+
+
+## 🟡 Visual Gallery / 作品展示
+
+The final environment features a cohesive low-poly aesthetic, complete with custom particle effects (snowfall) and ambient lighting to simulate a dynamic winter wilderness.
+最终环境呈现了统一的低多边形（Low-poly）美学，并配有自定义粒子效果（降雪）和环境光照，以模拟动态的冬日荒野。
+
+
+<img width="2061" height="576" alt="3" src="https://github.com/user-attachments/assets/6da27ca2-aca9-4a2d-a4e6-d9d406bb23fe" />
+
 
 ## 🟡 Key Technical Features / 核心技术亮点
 
@@ -21,14 +32,19 @@ Goal: Achieved a smooth, intuitive steering experience that mimics real skiing t
 
 目标： 实现了模拟真实滑雪转弯的平滑、直观操控感。
 
-**2. AI-Driven 3D Workflow / AI 驱动的 3D 工作流**
-Tool: Tripo AI (Text-to-3D).
+## 🟡 AI-Assisted Asset Production / AI 辅助资产生产
 
-Efficiency: Generated complex environment assets (e.g., icy ruins, obstacles) within minutes. This reduced the asset production cycle by approximately 60%, allowing the team to focus on interaction logic and gameplay balance.
+Rather than generating the entire scene, we utilized **Tripo AI** to transform images into specific 3D environmental elements. This "Hybrid Workflow" significantly accelerated the population of the game world.
 
-工具： Tripo AI (Text-to-3D)。
+本项目并非直接生成整个场景，而是利用 **Tripo AI** 将图像转化为特定的 3D 环境元素。这种“混合工作流”显著加速了游戏世界的填充。
 
-效率提升： 在数分钟内生成复杂的环境资产（如冰原遗迹、障碍物）。将资产生产周期缩短了约 60%，使团队能够集中精力于交互逻辑和游戏平衡性。
+*   **Technology:** Image-to-3D Generation.
+*   **Case Study:** Generated complex **Dinosaur Bone** structures and snow-covered props from reference images.
+*   **Efficiency:** Automated the modeling of organic and complex shapes, allowing the team to focus on scene composition and interaction design.
+*   **技术应用：** Image-to-3D 生成技术。
+*   **具体案例：** 基于参考图生成了复杂的**恐龙骨架**结构及雪地道具。
+*   **效率价值：** 实现了有机且复杂形状的建模自动化，使团队能够集中精力于场景构图与交互设计。
+
 
 ## 🔵 Logical Breakdown / 核心逻辑拆解
 Arduino Logic (Snippet)
